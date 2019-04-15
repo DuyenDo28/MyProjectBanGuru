@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="2.47"/>
+  <parameter name="url" value="http://demo.guru99.com/v4"/>
+  <test name="Login guru on Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="2.47"/>
+    <parameter name="url" value="http://demo.guru99.com/v4"/>
+    <classes>
+      <class name="BankGuruTestcases.NewCustomerScript">
+        <methods>
+          <include name="AfterClass"/>
+          <include name="TC_03_SignUpNewCustomer"/>
+          <include name="BeforeClass"/>
+          <include name="TC_02_DateFieldCannotBlank"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- BankGuruTestcases.NewCustomerScript -->
+      <class name="BankGuruTestcases.RegisterScript">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- BankGuruTestcases.RegisterScript -->
+      <class name="BankGuruTestcases.EditCustomerScript">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="TC_01_EditCustomerName"/>
+        </methods>
+      </class> <!-- BankGuruTestcases.EditCustomerScript -->
+    </classes>
+  </test> <!-- Login guru on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,10 @@
+ {"NewCustomerMsg": {
+        "customerMustNotBeBlank":"Customer name must not be blank",
+        "dateMustNotBeBlank":"Date Field must not be blank"
+  },
+  "ExpectedMsg": {"customerMustNotBeBlank":"Customer name must not be blank",
+  "dateMustNotBeBlank":"Date Field must not be blank"
+  }
+  }
+  
+  
